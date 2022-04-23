@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test name="CrossBrowserTest1">
+ 
+ 	<parameter name="browser" value="firefox" />
+
+ <classes>
+  <class name="CrossBrowserTest.CrossBrowserTestcases"/>
+  </classes>
+  </test> 
+
+  <test name="CrossBrowserTest2">
+ 
+ 	<parameter name="browser" value="Google Chrome" />
+
+ <classes>
+  <class name="CrossBrowserTest.CrossBrowserTestcases"/>
+  </classes>
+  </test> 
+  
+  <test name="CrossBrowserTest3">
+ 
+ 	<parameter name="browser" value="Internet Explorer" />
+
+ <classes>
+  <class name="CrossBrowserTest.CrossBrowserTestcases"/>
+  </classes>
+  </test> 
+  
+  <test name="CrossBrowserTest4">
+ 
+ 	<parameter name="browser" value="Opera Browser" />
+
+ <classes>
+  <class name="CrossBrowserTest.CrossBrowserTestcases"/>
+  </classes>
+  </test> 
+</suite> 
